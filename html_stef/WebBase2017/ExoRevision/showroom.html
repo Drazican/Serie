@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Exercice de révisison </title>
+	<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+	
+	    <header id="header" class="">
+	    	  <h1> DG Motor SPRL </h1>
+               <nav>
+               	   <a href="ExamenRevision.html " title="">Acceuil</a>
+               	   <a href="showroom.html" title="">ShowRoom</a>
+               </nav>
+	    </header>
+	    <aside>
+		<h2> L'univers Volkswagen </h2>
+		<ul >
+			<li><a href=" " title="">Histoire</a></li>
+			<li><a href=" " title="">News </a> </li>
+			<li><a href=" " title="">MyVolkswagen</a> </li>
+		</ul>
+		 	 
+	</aside>
+
+	<section id="section1">
+		<h2>Nous contacter</h2>
+		<form action="http://127.0.0.1/formulaire/test.php" method="post" accept-charset="utf-8">
+	       <p>Formulaire de contact</p>
+	       <p> 
+						*Nom :  </br>
+						<input type="text" name="NOM" value="" placeholder="Nom, Prénom" size="50" required>
+					</p>
+					<p> *Email : </br>
+						<input type="email" name="EMAIL" value="" placeholder="Email@monfournisseur.com" size="50" required>
+					</p>
+					<p> Je suis :</BR>
+						<select name="JESUIS" ="50">
+							<option value="PART">Particulier</option>
+							<option value="PROF">Professionnel</option>
+							
+						</select>
+					</p>
+
+					<p> *Votre messsage:</br>
+						<textarea name="MESSAGE"  required></textarea>
+						
+					</p>
+					<p>
+						<input type="checkbox" name="NEWSLETTER" value="1">
+						Je veux recevoir la newsletter
+					</p>
+
+					<P>
+						<input type="submit" name="" value="Envoyer">
+					</P>
+				</form>
+			
+		</form>
+		
+	</section>
+
+	<section id="section2">
+		<h2>Coordonnées</h2>
+		<article id="article1">
+			<p> <b> Par courrier </b> </p>
+			<p> DG Motor s.p.r.l </p>
+			<p> Avenue du Marquis , 1 (Zon.ind) </p>
+			<p> 6220 Fleurus </p>
+
+		</article>
+
+		<article id="article2">
+			<p> <b> Le ShowRoom </b></p>
+          <table>
+          	<caption> Heures d'ouverture</caption>
+          	<thead>
+          		<tr>
+          			<th> </th>
+          			<th class="jours">Lundi</th>
+				<th class="jours">Mardi</th>
+				<th class="jours">Mercredi </th>
+				<th class="jours">Jeudi</th>
+				<th class="jours">Vendredi</th>
+				<th class="jours">Samedi</th>
+				<th class="jours">Dimanche</th>
+          		</tr>
+          	</thead>
+          	<tbody>
+          		<tr>
+          		<td class="jours" > Matin</td>
+          		<td > 9h30 à 12h30 </td>
+          		<td > 9h30 à 12h30 </td>
+          		<td rowspan="2" class="ferme"> Fermé</td>
+          		<td > 9h30 à 12h30 </td>
+          		<td > 9h30 à 12h30 </td>
+          		<td rowspan="2" colspan="2" class="ferme"> Fermé</td>
+          		
+          	     </tr>
+
+          	    <tr>
+          	    	<td  class="jours"> Après-midi</td>
+          	    	<td rowspan="2">13h30 à17h30</td>
+          	    	<td rowspan="2">13h30 à17h30</td>
+          	    	<td rowspan="2">13h30 à17h30</td>
+          	    	<td rowspan="2">13h30 à17h30</td>
+
+          	    </tr>   	
+          	</tbody>
+          </table>
+		</article>
+		
+	</section>
+	<footer>
+			Par Stéfanie Dormont <a href="#header">haut de page</a>
+	</footer>
+
+</body>
+</html>

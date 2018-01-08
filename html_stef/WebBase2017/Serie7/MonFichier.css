@@ -1,0 +1,74 @@
+
+/*  Personnalisation Header*/
+header {
+
+	background-color: #F2F2F2;
+	border-radius: 5px;
+	border: 1px solid #d4d4d4;
+	text-align: center;}
+
+header img {
+	float: right;
+	margin-top: -90px;}
+
+h1 { color: #df662f; }
+
+header ul {
+	list-style-type: none;
+	text-decoration: none;
+	text-align: center;}
+
+header li {display: inline-block;}
+/*  Personnalisation Section */
+
+section h2 { background-color: rgb(223,102,47); text-align: center; color:rgb(255,255,255); }
+
+section {
+	background-color: #F2F2F2;
+	border-radius: 5px;
+	border: 1px solid #d4d4d4;
+	width:65%;
+	margin-top:10px;
+
+}
+
+section li {list-style-type: disc; }
+
+/* Personnalisation aside */
+
+aside {
+background-color: #F2F2F2;
+	border-radius: 5px;
+	border: 1px solid #d4d4d4;
+	text-align: center;
+	position: fixed;
+	right: 0;	
+	width: 33%;
+	height:72%;
+	margin-top: 10px;
+}
+
+aside h2 {
+
+	background-color: rgb(223,102,47); text-align: center; color:rgb(255,255,255);
+}
+aside h3 , aside p{ text-align: left;margin-left: 5px;}
+footer {background-color: #F2F2F2;
+	border-radius: 5px;
+	border: 1px solid #d4d4d4;
+text-align: center;
+margin-top: 10px;
+height:25px;
+padding: 5px;
+}
+
+/* Personnalisation du tableau */
+.jours { background-color: rgb(223,102,47); text-align: center;  color:rgb(255,255,255);}
+.close {background-color: rgb(125,125,125);}
+tr, caption { background-color:  #8EA2C6; }
+
+/* personnaistion du second formulaire */
+.form2 {background-color: #F2F2F2;
+	border-radius: 5px;
+	border: 1px solid #d4d4d4;
+padding: 10px;}

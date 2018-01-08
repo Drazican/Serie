@@ -1,0 +1,8 @@
+
+h1
+{ color: blue; text-align: center; background-image: url('images/logo-ATC.png') ; background-repeat: no-repeat; background-position: right;}
+#header { background-color: rgb(242,242,242); border-radius: 5px; border: 1px solid #d4d4d4;}
+h2 { color: rgb(255,255,255); background-color:rgb(223,102,47); text-align: center; }
+section {margin-top: 10px;background-color: rgb(242,242,242); border-radius: 5px; border: 1px solid #d4d4d4;}
+aside {background-color: rgb(242,242,242); border-radius: 5px; border: 1px solid #d4d4d4; margin-top:10px; position: fixed; margin-left:5px;}
+footer {text-align: center;}
